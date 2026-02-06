@@ -53,7 +53,7 @@ practice/
   (DuckDuckGo)       (Yahoo Finance)
 
 
-
+```
 
 ⚙️ Run the Project Locally
 
