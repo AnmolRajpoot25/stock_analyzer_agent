@@ -25,7 +25,7 @@ web_search_agent = Agent(
 ## financial agent
 
 finance_agent = Agent(
-    name = "finance_agent",
+    name = "financialagent.py",
     model = Groq(id = "llama-3.3-70b-versatile"),
     tools = [YFinanceTools(
         stock_price= True , analyst_recommendations = True , stock_fundamentals= True ,

@@ -1,3 +1,4 @@
+print("start script")
 from phi.agent import Agent
 from phi.model.groq import Groq
 from phi.tools.yfinance import YFinanceTools
@@ -6,9 +7,9 @@ from phi.tools.duckduckgo import DuckDuckGo
 from dotenv import load_dotenv
 import os
 
-load_dotenv() 
+load_dotenv()
 
-print("GROQ_API_KEY loaded:", os.getenv("GROQ_API_KEY"))
+# print("GROQ_API_KEY loaded:", os.getenv("GROQ_API_KEY"))
 
 
 web_search_agent = Agent(
